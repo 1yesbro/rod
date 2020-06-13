@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+}
+
+.container-fluid {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1700px) {
+  .container-fluid {
+    max-width: 1470px;
+  }
+}
+
+@media (max-width: 1448px) {
+  .container-fluid {
+    max-width: 1206px;
+  }
+}
+
+@media (max-width: 953px) {
+  .container-fluid {
+    max-width: 767px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container-fluid {
+    max-width: none;
+  }
+}
+
+.img_logo {
+  width: 125%;
+}
+
+.h4 {
+  color: black;
+}
+
+.categories_green {
+  background-color: white;
+  color: black;
+}
+
+.categories_green:hover {
+  background-color: black;
+  color: white;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+.card {
+  border-color: black;
+  border-width: 2px;
+}
+
+.top {
+  color: black;
+  margin-left: -200px;
+}
+
+.center-block {
+  margin-left: 105px;
+}
+
+.breadcrumb {
+  margin-left: 154px;
+  background-color: transparent;
+}
+
+.breadcrumb-item {
+  color: black;
+}
+
+.breadcrumb-item:hover {
+  color: black;
+}
+
+.product_get_phone_number {
+  color: black;
+}
+
+.product_get_phone_number:hover {
+  color: black;
+}
+
+.h6 {
+  color: black;
+}
+
+.card {
+  text-align: center;
+}
+
+.center-block .list-inline .list-inline-item a {
+  color: whitesmoke;
+  margin-left: 45px;
+}
+
+:hover .list-inline-item a {
+  text-decoration: none;
+}
+
+.top-block {
+  background-color: black;
+}
+
+.footer {
+  background-color: black;
+}
+
+.UnderTopic {
+  color: white;
+}
+
+.footer .row .list-inline .list-inline-item a i {
+  color: whitesmoke;
+  margin-left: 15px;
+}
+
+.footer .row .list-inline {
+  margin-left: 156px;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: white;
+}
